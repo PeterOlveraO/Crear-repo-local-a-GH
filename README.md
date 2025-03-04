@@ -1,4 +1,4 @@
-#Pasos para crear un repositorio local para despues subirlo a github
+##Pasos para crear un repositorio local para despues subirlo a github
 1-
 cd ~/GitHub - ir a la ruta
 2-
@@ -17,3 +17,14 @@ Abrir githubdesktop y seleccionar el repositorio local que cree osea la carpeta 
 git remote -v - para verificar la conexion del repo local a github
 9-
 git branch - para ver como se llama la rama principal
+
+##Pasos para commitear y agregar archivos y etceterrararar
+
+1- Entrar al proyecto a commitear
+git add . → Agrega todos los archivos modificados y nuevos.
+git add -u → Agrega solo archivos modificados y eliminados, no los nuevos.
+git add *.txt → Agrega solo archivos específicos por tipo.
+git add carpeta/ → Agrega todos los archivos dentro de una carpeta específica.
+
+despues git commit -am"Descripcion"
+git push origin "Nombre de la rama"
